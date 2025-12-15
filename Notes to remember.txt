@@ -1,0 +1,20 @@
+1 -> Open Main File In VS Code
+2 -> Open Split terminal ( one for frontend.. another for backend )
+
+3 -> Go to cmd
+  -> type: `ipconfig`
+  -> Get ipv4 address and copy it
+  -> Paste it in api.ts (only in ip section)
+
+4 -> In FRONTEND terminal:
+
+cd Frontend
+npx expo start
+
+5-> In BACKEND terminal:
+
+cd Backend
+venv/scripts/activate
+python manage.py runserver 0.0.0.0:8000
+
+
